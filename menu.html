@@ -6,7 +6,7 @@
     const parameter = new URLSearchParams(window.location.search);
     const table = parameter.get("table");
 
-    const applicationURL = "matchpointrestaurant://carta?table=" + table;
+    const applicationURL = "matchpointrestaurant://menu?table=" + table;
     const playStoreURL = "https://play.google.com/store/apps/details?id=com.example.matchpointrestaurant";
 
     window.location = applicationURL;
@@ -19,4 +19,5 @@
 <body>
   <p>Redirigint a la carta del restaurant...</p>
 </body>
+
 </html>
